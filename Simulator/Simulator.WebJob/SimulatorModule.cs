@@ -8,7 +8,7 @@ using Microsoft.Azure.Devices.Applications.RemoteMonitoring.Simulator.WebJob.Dat
 
 namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.Simulator.WebJob
 {
-    public sealed class SimulatorModule : Module
+    public sealed class SimulatorModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {

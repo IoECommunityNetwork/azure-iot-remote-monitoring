@@ -9,7 +9,7 @@ using Microsoft.Azure.IoT.Samples.EventProcessor.WebJob.Processors;
 
 namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.EventProcessor.WebJob
 {
-    public sealed class EventProcessorModule : Module
+    public sealed class EventProcessorModule : Autofac.Module
     {
         protected override void Load(ContainerBuilder builder)
         {

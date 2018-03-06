@@ -25,52 +25,52 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.Common.Factory
 
         private static readonly List<string> DefaultDeviceNames = new List<string>
         {
-            "CoolingSampleDevice001",
-            "CoolingSampleDevice002",
-            "CoolingSampleDevice003",
-            "CoolingSampleDevice004",
-            "CoolingSampleDevice005",
-            "CoolingSampleDevice006",
-            "CoolingSampleDevice007",
-            "CoolingSampleDevice008",
-            "CoolingSampleDevice009",
-            "CoolingSampleDevice010",
-            "CoolingSampleDevice011",
-            "CoolingSampleDevice012",
-            "CoolingSampleDevice013",
-            "CoolingSampleDevice014",
-            "CoolingSampleDevice015",
-            "CoolingSampleDevice016",
-            "CoolingSampleDevice017",
-            "CoolingSampleDevice018",
-            "CoolingSampleDevice019",
-            "CoolingSampleDevice020",
-            "CoolingSampleDevice021",
-            "CoolingSampleDevice022",
-            "CoolingSampleDevice023",
-            "CoolingSampleDevice024",
-            "CoolingSampleDevice025"
+            //"CoolingSampleDevice001",
+            //"CoolingSampleDevice002",
+            //"CoolingSampleDevice003",
+            //"CoolingSampleDevice004",
+            //"CoolingSampleDevice005",
+            //"CoolingSampleDevice006",
+            //"CoolingSampleDevice007",
+            //"CoolingSampleDevice008",
+            //"CoolingSampleDevice009",
+            //"CoolingSampleDevice010",
+            //"CoolingSampleDevice011",
+            //"CoolingSampleDevice012",
+            //"CoolingSampleDevice013",
+            //"CoolingSampleDevice014",
+            //"CoolingSampleDevice015",
+            //"CoolingSampleDevice016",
+            //"CoolingSampleDevice017",
+            //"CoolingSampleDevice018",
+            //"CoolingSampleDevice019",
+            //"CoolingSampleDevice020",
+            //"CoolingSampleDevice021",
+            //"CoolingSampleDevice022",
+            //"CoolingSampleDevice023",
+            //"CoolingSampleDevice024",
+            //"CoolingSampleDevice025"
         };
 
         private static readonly List<string> FreeFirmwareDeviceNames = new List<string>
         {
-            "CoolingSampleDevice001",
-            "CoolingSampleDevice002",
-            "CoolingSampleDevice003",
-            "CoolingSampleDevice004",
-            "CoolingSampleDevice005",
-            "CoolingSampleDevice006",
-            "CoolingSampleDevice007",
-            "CoolingSampleDevice008"
+            //"CoolingSampleDevice001",
+            //"CoolingSampleDevice002",
+            //"CoolingSampleDevice003",
+            //"CoolingSampleDevice004",
+            //"CoolingSampleDevice005",
+            //"CoolingSampleDevice006",
+            //"CoolingSampleDevice007",
+            //"CoolingSampleDevice008"
         };
 
         private static readonly List<string> HighTemperatureDeviceNames = new List<string>
         {
-            "CoolingSampleDevice001",
-            "CoolingSampleDevice002",
-            "CoolingSampleDevice003",
-            "CoolingSampleDevice004",
-            "CoolingSampleDevice005"
+            //"CoolingSampleDevice001",
+            //"CoolingSampleDevice002",
+            //"CoolingSampleDevice003",
+            //"CoolingSampleDevice004",
+            //"CoolingSampleDevice005"
         };
 
         private class Location

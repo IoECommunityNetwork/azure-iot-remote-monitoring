@@ -19,7 +19,7 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.Common.Helpers
         /// <param name="isSimulated"></param>
         /// <param name="iccid"></param>
         /// <returns></returns>
-        public static DeviceModel BuildDeviceStructure(string deviceId, bool isSimulated, string iccid)
+        public static DeviceModel BuildDeviceStructure(string deviceId, bool isSimulated, bool isIoTEdge, string iccid)
         {
             DeviceModel device = new DeviceModel();
 
@@ -29,8 +29,14 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.Common.Helpers
             device.Commands = new List<Command>();
             device.CommandHistory = new List<CommandHistory>();
             device.IsSimulatedDevice = isSimulated;
+            device.IsIoTEdgeDevice = isIoTEdge; // for IoT Edge device
 
             return device;
+        }
+
+        public static DeviceModel BuildDeviceStructure(string deviceId, bool isSimulated, string iccid)
+        {
+            return BuildDeviceStructure(deviceId, isSimulated, false, iccid);
         }
 
         /// <summary>

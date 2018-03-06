@@ -39,6 +39,10 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
                         PrimaryKey = securityKeys.PrimaryKey,
                         SecondaryKey = securityKeys.SecondaryKey
                     }
+                },
+                Capabilities = new Microsoft.Azure.Devices.Shared.DeviceCapabilities()
+                {
+                    IotEdge = device.IsIoTEdgeDevice // for IoT Edge device
                 }
             };
 

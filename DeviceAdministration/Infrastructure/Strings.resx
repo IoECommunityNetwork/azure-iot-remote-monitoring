@@ -129,6 +129,18 @@
     <value>Custom Device</value>
     <comment>Name of a device.</comment>
   </data>
+  <data name="CustomEdgeDeviceDescription" xml:space="preserve">
+    <value>A physical IoT Edge gateway device.</value>
+    <comment>Description of a device.</comment>
+  </data>
+  <data name="CustomEdgeDeviceInstructionsUrl" xml:space="preserve">
+    <value>https://github.com/Azure/iot-edge/blob/master/v1/doc/connect_to_preconfigured_solutions/iot-suite-v1-gateway-kit-get-started-simulator.md#connect-your-azure-iot-edge-gateway-to-the-remote-monitoring-preconfigured-solution-and-send-simulated-telemetry</value>
+    <comment>URL pointing to a documentaiton article describing how to connect devices to IOT Suite.</comment>
+  </data>
+  <data name="CustomEdgeDeviceName" xml:space="preserve">
+    <value>Custom IoT Edge Gateway</value>
+    <comment>Name of a device.</comment>
+  </data>
   <data name="DeviceAlreadyRegisteredExceptionMessage" xml:space="preserve">
     <value>Device {0} is already registered.</value>
     <comment>Error message.</comment>

@@ -27,6 +27,7 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.Common.Models
         public List<Command> Commands { get; set; }
         public List<CommandHistory> CommandHistory { get; set; }
         public bool IsSimulatedDevice { get; set; }
+        public bool IsIoTEdgeDevice { get; set; } // for IoT Edge device
         public string id { get; set; }
         public string _rid { get; set; }
         public string _self { get; set; }

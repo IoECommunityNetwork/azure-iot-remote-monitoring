@@ -458,6 +458,7 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Web.
             DeviceModel device = DeviceCreatorHelper.BuildDeviceStructure(
                 unregisteredDeviceModel.DeviceId,
                 unregisteredDeviceModel.DeviceType.IsSimulatedDevice,
+                unregisteredDeviceModel.DeviceType.IsIoTEdgeDevice, // for IoT Edge device
                 unregisteredDeviceModel.Iccid);
             SampleDeviceFactory.AssignDefaultTags(device);
             SampleDeviceFactory.AssignDefaultDesiredProperties(device);

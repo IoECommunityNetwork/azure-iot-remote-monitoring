@@ -27,6 +27,14 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
                 DeviceTypeId = 2,
                 Description = Strings.CustomDeviceDescription,
                 InstructionsUrl = Strings.CustomDeviceInstructionsUrl
+            },
+            new DeviceType
+            {
+                Name = Strings.CustomEdgeDeviceName,
+                DeviceTypeId = 3,
+                Description = Strings.CustomEdgeDeviceDescription,
+                InstructionsUrl = Strings.CustomEdgeDeviceInstructionsUrl,
+                IsIoTEdgeDevice = true // for IoT Edge device
             }
         };
 

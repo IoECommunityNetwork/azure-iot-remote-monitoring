@@ -33,6 +33,7 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
 
         public async Task<Device> AddDeviceAsync(Device device)
         {
+            // return await this._deviceManager.AddDeviceAsync(new Device(device.Id) { Capabilities = new Microsoft.Azure.Devices.Shared.DeviceCapabilities() { IotEdge = true }});
             return await this._deviceManager.AddDeviceAsync(device);
         }
 

@@ -13,5 +13,6 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
         public Uri ImageUrl { get; set; }
         public string InstructionsUrl { get; set; }
         public bool IsSimulatedDevice { get; set; }
+        public bool IsIoTEdgeDevice { get; set; } // for IoT Edge device
     }
 }

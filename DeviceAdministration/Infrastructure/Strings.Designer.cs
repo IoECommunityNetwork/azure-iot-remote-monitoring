@@ -19,7 +19,7 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Strings {
@@ -85,6 +85,33 @@ namespace Microsoft.Azure.Devices.Applications.RemoteMonitoring.DeviceAdmin.Infr
         internal static string CustomDeviceName {
             get {
                 return ResourceManager.GetString("CustomDeviceName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A physical IoT Edge gateway device..
+        /// </summary>
+        internal static string CustomEdgeDeviceDescription {
+            get {
+                return ResourceManager.GetString("CustomEdgeDeviceDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to https://github.com/Azure/iot-edge/blob/master/v1/doc/connect_to_preconfigured_solutions/iot-suite-v1-gateway-kit-get-started-simulator.md#connect-your-azure-iot-edge-gateway-to-the-remote-monitoring-preconfigured-solution-and-send-simulated-telemetry.
+        /// </summary>
+        internal static string CustomEdgeDeviceInstructionsUrl {
+            get {
+                return ResourceManager.GetString("CustomEdgeDeviceInstructionsUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom IoT Edge Gateway.
+        /// </summary>
+        internal static string CustomEdgeDeviceName {
+            get {
+                return ResourceManager.GetString("CustomEdgeDeviceName", resourceCulture);
             }
         }
         
