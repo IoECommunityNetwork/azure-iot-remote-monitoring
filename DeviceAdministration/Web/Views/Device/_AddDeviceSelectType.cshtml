@@ -16,21 +16,21 @@
                     OnFailure = "IoTApp.DeviceSelectType.onFailure"
                 }))
             {
-                <li class="list__item">
-                    <h2 class="item__name">@Model[i].Name</h2>
-                    <p class="item__description">
-                        @Model[i].Description
-                    </p>
-                    <button class="button_base item__add_new_button" type="submit">
-                        @Strings.AddNew
-                    </button>
-                    <input type="hidden" name="Name" value="@Model[i].Name" />
-                    <input type="hidden" name="DeviceTypeId" value="@Model[i].DeviceTypeId" />
-                    <input type="hidden" name="Desciption" value="@Model[i].Description" />
-                    <input type="hidden" name="InstructionsUrl" value="@Model[i].InstructionsUrl" />
-                    <input type="hidden" name="IsSimulatedDevice" value="@Model[i].IsSimulatedDevice.ToString()" />
-
-                </li>
+        <li class="list__item">
+            <h2 class="item__name">@Model[i].Name</h2>
+            <p class="item__description">
+                @Model[i].Description
+            </p>
+            <button class="button_base item__add_new_button" type="submit">
+                @Strings.AddNew
+            </button>
+            <input type="hidden" name="Name" value="@Model[i].Name" />
+            <input type="hidden" name="DeviceTypeId" value="@Model[i].DeviceTypeId" />
+            <input type="hidden" name="Desciption" value="@Model[i].Description" />
+            <input type="hidden" name="InstructionsUrl" value="@Model[i].InstructionsUrl" />
+            <input type="hidden" name="IsSimulatedDevice" value="@Model[i].IsSimulatedDevice.ToString()" />
+            <input type="hidden" name="IsIoTEdgeDevice" value="@Model[i].IsIoTEdgeDevice.ToString()" /> <!-- for IoT Edge device -->
+        </li>
             }
         }
 
